@@ -1,3 +1,6 @@
 # Exclude all UE project related directories
 Collections
 Developers
+
+*.umap
+NewMaterial.uasset
