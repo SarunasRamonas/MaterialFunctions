@@ -14,17 +14,12 @@ Unreal Engine has limited mask library for materials. This library is created to
 <summary>Details of this function WIP</summary>
 
 ### Length
-Get pixels distance from origin point
-Length function - calculate the distance between any given pixel. This function takes a vector as its input and calculates the magnitude of that vector.
-Essencially it calculates the distance between the vector and the origin.
-$\sqrt{x^2+y^2}$
+To calculate the distance from the point to the origin.
 
 ### Substract
-Subtract radius from distance. The values are positive outside the circle's edge which creates a gradient. Negative values are inside the circle resulting in black
+Subtract the radius to get the signed distance to the circle's surface.
 
 ### Step
-Generate a step function by comparing two values.
-  
-if x < edge (or y by UE) returns 0.0, otherwise - 1.0
+Function to remove all values between 0 and 1. To remove fading effect.
   
 </details>
