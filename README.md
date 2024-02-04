@@ -11,7 +11,7 @@ Unreal Engine has limited mask library for materials. This library is created to
 </picture>
 
 <details>
-<summary>Details of this function WIP</summary>
+<summary>Details of this function</summary>
 
 ### Length
 To calculate the distance from the point to the origin.
@@ -23,3 +23,10 @@ Subtract the radius to get the signed distance to the circle's surface.
 Function to remove all values between 0 and 1. To remove fading effect.
   
 </details>
+
+## Rectangle Mask without fade Function
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="Images/RectangleFunctionDemo.png">
+  <source media="(prefers-color-scheme: light)" srcset="Images/RectangleFunctionDemo.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="Images/RectangleFunctionDemo.png">
+</picture>
