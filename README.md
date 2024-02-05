@@ -1,7 +1,7 @@
 # SDF Mask Material Function Library
 Unreal Engine has limited mask library for materials. This library is created to enhance mask library & document shader programming foundation.
 
-<b>SDF</b> - a sign distance function. A term to describe a function that takes position in space as input and returns the distance from that position to a given shape. It is called signed because the distance is positive outside the shape, negative inside the shape and exactly zero - boundary of the shape.
+<b>SDF</b> - a signed distance field. A signed distance field in general is the result of a signed distance transformation applied to a subset of N-dimensional space. it maps each point P of the space to a scalar signed distance value.
 
 ## Circle Mask without fade Function
 <picture>
